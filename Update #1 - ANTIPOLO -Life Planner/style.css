@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.intro{
+    justify-content: center;
+    align-items: top;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(45deg, #99b898 20%, #feceab 20% 50%, #ff847c 50% 80%, #e84a5f 80%);
+}
+
+h1{
+    padding: 2rem;
+    color: #ffeadb;
+    font-family: 'Broadway', sans-serif;
+    font-size: 3.50rem;
+    margin-bottom: 0.75rem;
+}
+
+h3{
+    color: #ffeadb;
+    font-family: "Brush Script MT";
+    font-size: 3.75rem;
+}
+
+.storage{
+  width: 340px;
+  height: 370px;
+  left: 1%;
+  top: 35%;
+  position: absolute;
+  margin: auto;
+  bottom: auto;
+  box-shadow: 0 0 55px #ff9a76;
+}
+
+h2{
+  color: #838383;
+  font-family: "Bradley Hand", cursive;
+  font-size: 1.25rem;
+  letter-spacing: 0.1rem;
+  margin: 10px 0;
+}
