@@ -5,3 +5,5 @@
 
 - The update # 2 is the continuation of the first content which is the "to do list" portion of my project, this updated one contains three files which are the html, css and java script files and three png images that I used during my coding part. The "to do list" content here is already completed and performed well, you can now add your tasks, you can also see the list of tasks that you have added and there are also a functionalities that you can delete your tasks and if you have already completed the tasks you can click the check button by means that you completed the tasks.
 
+- The update # 3 contains the second content of my life planner which is the "Goals and Plans" content. the content goals and plan is already completed and all the funtionalities are all working like the add button, check button and delete button. 
+
