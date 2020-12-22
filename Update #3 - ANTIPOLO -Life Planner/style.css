@@ -1,0 +1,152 @@
+.intro{
+    justify-content: center;
+    align-items: top;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(45deg, #99b898 20%, #feceab 20% 50%, #ff847c 50% 80%, #e84a5f 80%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    padding: 2rem;
+    color: #ffeadb;
+    font-family: 'Broadway', sans-serif;
+    font-size: 3.50rem;
+    margin-bottom: 0.75rem;
+}
+
+h3{
+    color: #ffeadb;
+    font-family: "Brush Script MT";
+    font-size: 3.75rem;
+}
+
+.storage{
+  width: 340px;
+  height: 370px;
+  left: 10%;
+  top: 35%;
+  position: absolute;
+  margin: auto;
+  bottom: auto;
+  box-shadow: 0 0 55px #ff9a76;
+}
+
+.container{
+  width: 340px;
+  height: 370px;
+  right: 20%;
+  left: 65%;
+  top: 30%;
+  position: absolute;
+  margin: auto;
+  bottom: 1%;
+  box-shadow: 0 0 55px #ff9a76;
+  center: 100%;
+}
+
+h2{
+  color: #838383;
+  font-family: "Bradley Hand", cursive;
+  font-size: 1.25rem;
+  letter-spacing: 0.1rem;
+  margin: 10px 0;
+}
+
+.addTodo, .addGoalsPlans {
+  font-style: Courier;
+  font-size: 1.15rem;
+  border-radius: 2px;
+  height: 8px;
+  width: 90%;
+  top: 45px;
+  right: 0;
+  left: 0;
+  position: absolute;
+  margin: auto;
+  border: none;
+  padding: 20px;
+  padding-right: 50px;
+}
+
+.todobutton img, .goalsPlansButton img{
+  height: 40px;
+  width: 40px;
+  top: 90px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  margin: auto;
+}
+
+.todobutton, .goalsPlansButton {
+  height: 8px;
+  width: 15px;
+  position: absolute;
+  margin: auto;
+  top: 15px;
+  right: 45px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  margin: auto;
+}
+
+.listItems, .listItems::-webkit-scrollbar, .listofItems, .listofItems::-webkit-scrollbar{
+  height: 75%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin:auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.elementItem, .elementOfItem {
+  font-style: Courier;
+  font-size: 1.15rem;
+  background: white;
+  text-align: left;
+  height: 40px;
+  width: 85%;
+  position: relative;
+  transition: 0.2s;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+.elementItem .checkIcon, .elementOfItem .checkOnIcon {
+  height: 25px;
+  right: 35px;
+  position: absolute;
+  margin: auto;
+  float: right;
+}
+
+.elementItem .deleteIcon, .elementOfItem .deleteOnIcon {
+  margin: auto;
+  height: 25px;
+  position: absolute;
+  right: 10px;
+}
+
+.elementItem:hover, .elementOfItem:hover {
+  transform: scale(1.1);
+}
+
+::selection {
+  background: transparent;
+}
