@@ -7,5 +7,5 @@
 
 - The update # 3 contains the second content of my life planner which is the "Goals and Plans" content. the content goals and plan is already completed and all the funtionalities are all working like the add button, check button and delete button. 
 
-- The update # 4 is the continuation of the content of my life planner. This update contains all the content of my life planner which are the Todo List, List of Appointments, Goals and Plans and lasty is the List of Errands. All this content are already completed and all functionalities are all working. I also finalize here the design of my life planner.
+- The update # 4 is the continuation of the content of my life planner. This update contains all the content of my life planner which are the Todo List, Appointments, Goals and Plans and lasty is the List of Errands. All this content are already completed and all functionalities are all working. I also finalize here the design of my life planner.
 
