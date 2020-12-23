@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ANTIPOLO - Life Planner</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="intro">
+        <div class="introduction">
+            <h1>LIFE PLANNER</h1>
+            <h3>Get Organized!</h3>
+        </div>
+
+        <div class = "storage">
+            <h2>To-Do-List</h2>
+            <input type="text" class="addTodo" placeholder="Add your Tasks" />
+            <button class="todobutton" onclick="addItems(this)">
+              <img src="add btn.png" />
+            </button>
+            <div class="listItems"></div>
+        </div>
+
+        <div class = "container">
+            <h2>Goals and Plans</h2>
+            <input type="text" class="addGoalsPlans" placeholder="Add your Goals and Plans" />
+            <button class="goalsPlansButton" onclick="addItems(this)">
+              <img src="add btn.png" />
+            </button>
+            <div class="listofItems"></div>
+        </div>
+
+        <div class = "holder">
+            <h2>Appointments</h2>
+            <input type="text" class="addAppointments" placeholder="Add your Appointments" />
+            <button class="appointmentsButton" onclick="addItems(this)">
+              <img src="add btn.png" />
+            </button>
+            <div class="listofAppointments"></div>
+        </div>
+
+        <div class = "repo">
+            <h2>List of Errands</h2>
+            <input type="text" class="addErrands" placeholder="Add your Errands" />
+            <button class="errandsButton" onclick="addItems(this)">
+              <img src="add btn.png" />
+            </button>
+            <div class="listofErrands"></div>
+        </div>
+
+      </header>
+      <script src="todolist.js"></script>
+  </body>
+</html>
