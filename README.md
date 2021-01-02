@@ -9,4 +9,4 @@
 
 - The update # 4 is the continuation of the content of my life planner. This update contains all the content of my life planner which are the Todo List, Appointments, Goals and Plans and lasty is the List of Errands. All this content are already completed and all functionalities are all working. I also finalize here the design of my life planner.
 
-- The update #5 is now have connection to the database and it can also add todolist taks, appointment task, list of goals/plans and list of errands then save it into the database.
+- The update5 is now have connection to the database and it can also add todolist taks, appointment task, list of goals/plans and list of errands then save it into the database.
