@@ -11,4 +11,4 @@
 
 - The update 5 is now have connection to the database and it can also add todolist task, appointment task, list of goals/plans and list of errands then save it into the database.
 
-- The zip file Antipolo_LifePlanner, I worked on the delete operation, it can now delete task to the database. I also worked on the status, it can now update the status once you completed the task and I also finalize the design. So this zip file is my final submission on this project.
+- The zip file Antipolo_LifePlanner, I worked on the delete operation, it can now delete task to the database. I also worked on the status, it can now update the status once you completed the task. All functionalities are all working and I also finalized the design so, this zip file is my final submission on this project.
